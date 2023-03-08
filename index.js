@@ -18,7 +18,7 @@ search.addEventListener('click', ()=> {
     .then(response => response.json())
     .then(json => {
         if (json.cod === '404'){
-            container.styke.height = '400px';
+            container.style.height = '400px';
             weatherBox.style.display = 'none';
             weatherDetails.style.display = 'none';
             error404.style.display = 'block';
